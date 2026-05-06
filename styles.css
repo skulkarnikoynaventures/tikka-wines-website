@@ -120,3 +120,13 @@ p{margin:0 0 18px}
   .bullet-list.two-col{columns:1}
   .hero-inner{padding-top:100px}
 }
+@media (max-width: 700px){
+  .table-wrap{
+    width:100%;
+    overflow-x:auto;
+    -webkit-overflow-scrolling:touch;
+  }
+  .table-wrap .styled-table{
+    min-width:640px;
+  }
+}
