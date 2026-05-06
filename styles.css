@@ -99,6 +99,14 @@ p{margin:0 0 18px}
 .footer-note{border-top:1px solid rgba(255,255,255,.08);padding-top:18px;font-size:.9rem;color:#b9aacb}
 .banner-cards{display:grid;grid-template-columns:repeat(3,1fr);gap:18px;margin-top:24px}
 .stat-card strong{display:block;font-size:1.5rem;color:var(--plum);font-family:'Space Grotesk',Inter,sans-serif}
+.table-wrap{
+  width:100%;
+  overflow-x:auto;
+  -webkit-overflow-scrolling:touch;
+}
+.table-wrap .styled-table{
+  min-width:640px;
+}
 @media (max-width: 1050px){
   .card-grid.five{grid-template-columns:repeat(2,1fr)}
   .split-section,.page-grid,.footer-inner{grid-template-columns:1fr}
