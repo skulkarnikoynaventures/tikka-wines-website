@@ -1,2 +1,3 @@
-# tikka-wines-website
-tikka-wines-website
+# Tikka Wines Netlify Site
+
+Deploy to Netlify by uploading this folder or connecting the repo.
